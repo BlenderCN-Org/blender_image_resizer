@@ -3,7 +3,7 @@
 ######An image resizer addon for blender. Easily resize and save your images from blender.
 
 
-#####It needs the [Pillow(PIL)](https://pypi.python.org/pypi/Pillow) python module.
+#####It needs the [Pillow(PIL)](https://pypi.python.org/pypi/Pillow) python module!
 
 
 ####How to install Pillow to Blender?
@@ -31,5 +31,7 @@ InshaAllah, soon ...
 
 
 #####Known Issues:
-For now, this add on can not save 16 bit images. (pil does not support saving 16 bit images.)
+For now, this add on can not save 16 bit images. 
+(pil does not support saving 16 bit images.)
+
 
