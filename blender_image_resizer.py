@@ -526,7 +526,7 @@ class ImageResizerPresetsMenu(bpy.types.Menu):
     """Presets for render settings."""
     # bl_idname = "image_resizer.presets_menu"
     bl_idname = "IMAGE_RESIZER_MT_presets_menu"
-    bl_label = "Image Resizer Presets"
+    bl_label = "Presets"
     preset_subdir = "image_resizer_presets"
     preset_operator = "script.execute_preset"
 

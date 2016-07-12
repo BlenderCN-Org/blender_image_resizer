@@ -2,6 +2,7 @@
 
 ######An image resizer addon for blender. Easily resize and save your images from blender.
 
+[![Blender Image Resizer Youtube Video](http://img.youtube.com/vi/Rh3Y3nvFrGA/0.jpg)](http://www.youtube.com/watch?v=Rh3Y3nvFrGA)
 
 #####It needs the [Pillow(PIL)](https://pypi.python.org/pypi/Pillow) python module!
 
