@@ -20,7 +20,13 @@ If your system's python version matches with blender's python version,
 
 If pillow is not installed, first install it with;
 
-```pip install -U pillow```
+For Windows:
+
+    pip install -U pillow
+
+For Linux and OS X:
+
+    sudo pip install -U pillow
 
 to your system's python.
 
