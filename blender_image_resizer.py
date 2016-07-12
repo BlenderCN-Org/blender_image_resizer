@@ -545,7 +545,6 @@ def register():
 def unregister():
     del bpy.types.Scene.ImageResizer
     bpy.utils.unregister_module(__name__)
-    del bpy.types.Scene.ImageResizer
 
 
 # ---------------------------------------------------------------------
