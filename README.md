@@ -50,7 +50,6 @@ These lines will list some paths that you can copy the PIL directory to them.
 any of them will do.
 
 </br>
-</br>
 
 ####For Linux:
 #####Alternative 1:
@@ -76,6 +75,7 @@ If you have an older version you should change the version numbers with matching
 **If your distro does not have the pillow package for matching version python:**
 
 Install pillow dependencies, (we will also need python3.5-dev package)
+
 _For Ubuntu / Mint_
     
     sudo apt-get python3.5-dev
@@ -146,6 +146,7 @@ And it is done.
 
 If you encounter some compilation errors you may need to install the pillow dependencies.
 To install pillow dependencies, (we may also need python3.5-dev package)
+
 _For Ubuntu / Mint_
     
     sudo apt-get python3.5-dev
@@ -155,7 +156,7 @@ And try again installing pillow
     
     ./pip install -U pillow
 
-
+</br>
 ####For Windows:
 
 #####Alternative 1:
@@ -170,6 +171,7 @@ Also if your blender is 32 bit. Your python version should be also 32 bit
 if it is 64 bit than it should be 64 bit.
 
 Download and install matching version Pillow installers from https://pypi.python.org/pypi/Pillow/3.3.0
+
 Again versions should match.
 For example for 64 bit Python 3.5
 you should download "Pillow-3.3.0.win-amd64-py3.5.exe"
@@ -178,7 +180,7 @@ for 32 bit Python 3.5 "Pillow-3.3.0.win32-py3.5.exe".
 You get the idea.
 
 this will install the pillow to
-`Yor_Python_Installation_Folder\Lib\site-packages`
+`Your_Python_Installation_Folder\Lib\site-packages`
 as a folder named `PIL`
 
 copy the `PIL` folder from
@@ -187,7 +189,7 @@ for example:
     C:\Program Files\Python35\Lib\site-packages\PIL
 to
 
-    C:\Users\<username>\AppData\Roaming\Blender Foundation\Blender\2.77\scripts\addons\modules
+    C:\Users\<username>\AppData\Roaming\Blender Foundation\Blender\2.xx\scripts\addons\modules
 
 _(or one of the directories from "How to find where to copy" title.)_
 
@@ -197,44 +199,45 @@ And hopefully it is done.
 
 If you have installed blender by downloading and extracting a zip file, 
 
-Download pillow from http://www.lfd.uci.edu/~gohlke/pythonlibs/#pillow
-Versions should match.
-For example for 64 bit Blender and Python 3.5
-you should download "Pillow-3.3.0-cp35-cp35m-win_amd64.whl"
-for 32 bit Blender and Python 3.5
-Pillow-3.3.0-cp35-cp35m-win32.whl
-etc.
-
 than go to your
-`blender-folder\2.77\python\bin` and look for python.exe
-if you see python exe
-download get-pip.py from https://pip.pypa.io/en/stable/installing/ to any folder you want.
-open a command line (from start menu search "cmd")
-change dir to your-blender-folder-path\2.77\python\bin
+`your-blender-folder\2.77\python\bin` and look for python.exe
+
+If you see python exe, download [get-pip.py](https://pip.pypa.io/en/stable/installing/) to any folder you want.
+
+Open a command line (from start menu search "cmd")
+
+Change dir to your-blender-folder-path\2.77\python\bin
 for ex:
 
     cd C:\myBlender\2.77\python\bin
-install pip, (you need the full path of get-pip.py)
+Install pip, (you need the full path of get-pip.py that we've downloaded earlier.)
 for ex:
 
     python C:\Users\foo\Downloads\get-pip.py
 
-if it is a success than install pillow
+if it works, than install pillow.
 
     ..\Scripts\pip.exe install c:\path\to\pil.whl
 
-this will install pillow to 
+This will install pillow to
+
 `your-blender-folder-path\2.77\python\lib\site-packages\`
+
 as a folder named `PIL`
 
 copy PIL folder from
+
 `your-blender-folder-path/2.77/python/lib/site-packages/PIL`
+
 to
+
 `C:\Users\<username>\AppData\Roaming\Blender Foundation\Blender\2.77\scripts\addons\modules`
 
 _(or one of the directories from "How to find where to copy" title.)_
 
 And hopefully it is done.
+
+</br>
 
 ####For MAC OS X:
 
