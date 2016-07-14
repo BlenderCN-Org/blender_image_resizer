@@ -61,7 +61,7 @@ Now, try installing the Pillow with your package manager for your system's match
 
 than copy (or make a symlink) the PIL directory from the python's dist-packages(or site-packages) to your
 `~/.config/blender/2.xx/scripts/modules/` directory 
-_(or one of the directories from [How to find where to copy]())_
+_(or one of the directories from [How to find where to copy](https://github.com/erdinc-me/blender_image_resizer/blob/master/README.md#how-to-find-where-to-copy))_
 
 And it is done.  
 
@@ -113,7 +113,8 @@ now copy or (symlink) the PIL directory from
 to
 
 `~/.config/blender/2.77/scripts/modules`
-_(or one of the directories from "How to find where to copy" title.)_
+_(or one of the directories from [How to find where to copy](https://github.com/erdinc-me/blender_image_resizer/blob/master/README.md#how-to-find-where-to-copy))_
+
 
 and hopefully it will work.
 
@@ -191,7 +192,8 @@ to
 
     C:\Users\<username>\AppData\Roaming\Blender Foundation\Blender\2.xx\scripts\addons\modules
 
-_(or one of the directories from "How to find where to copy" title.)_
+_(or one of the directories from [How to find where to copy](https://github.com/erdinc-me/blender_image_resizer/blob/master/README.md#how-to-find-where-to-copy))_
+
 
 And hopefully it is done.
 
@@ -233,7 +235,8 @@ to
 
 `C:\Users\<username>\AppData\Roaming\Blender Foundation\Blender\2.77\scripts\addons\modules`
 
-_(or one of the directories from "How to find where to copy" title.)_
+_(or one of the directories from [How to find where to copy](https://github.com/erdinc-me/blender_image_resizer/blob/master/README.md#how-to-find-where-to-copy))_
+
 
 And hopefully it is done.
 
@@ -250,7 +253,9 @@ But i'll try...
 The idea is, installing pillow to a python installation which is the same version as the blender's python.
 And copying the newly installed PIL directory to a folder which blender looks for python modules or scripts.
 
-_(Please see the titles at the begining of this document. "How to find the dist-packages(or site-packages) directory" and "How to find where to copy")_
+_(Please see [How to find the dist-packages(or site-packages) directory](https://github.com/erdinc-me/blender_image_resizer/blob/master/README.md#how-to-find-the-dist-packagesor-site-packages-directory) and [How to find where to copy](https://github.com/erdinc-me/blender_image_resizer/blob/master/README.md#how-to-find-where-to-copy))_
+
+
 
 First, please install the exact same version python that we found earlier to your system.
 If it is not already installed.
