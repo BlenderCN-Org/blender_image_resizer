@@ -263,15 +263,16 @@ Also if your blender is 32 bit. Your python version should be also 32 bit
 if it is 64 bit than it should be 64 bit.
 
 And normally using the matching version python's pip and executing this command should work.
-
-    pip3 install -U pillow
-    # or maybe pip3.5
-    pip3.5 install -U pillow
-
+```python
+pip3 install -U pillow
+# or maybe pip3.5
+pip3.5 install -U pillow
+```
 if it does not work, please try this
-
-    pip3 install wheel
-    pip3 install --use-wheel pillow
+```python
+pip3 install wheel
+pip3 install --use-wheel pillow
+```
 
 if one of these works, than copy the PIL directory to a directory which blender scans for python modules (See above.)
 
