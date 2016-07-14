@@ -13,7 +13,7 @@ For now, this add on can not save 16 bit images.
 ###How to install Pillow to Blender?
 
 
-**How to find blender's python version:**
+#####How to find blender's python version:
 
 Switch to python console in blender and type these commands.
     
@@ -27,7 +27,7 @@ Switch to python console in blender and type these commands.
 
 </br>
 
-**How to find the dist-packages(or site-packages) directory:**
+#####How to find the dist-packages(or site-packages) directory:
 
 Launch the matching version python interpreter from the terminal and type these commands. 
     
@@ -38,7 +38,7 @@ import distutils.sysconfig; print(distutils.sysconfig.get_python_lib())
 ```
 </br>
 
-**How to find where to copy:**
+#####How to find where to copy:
 
 Switch to python console in blender and type these commands.
 ```python
@@ -61,7 +61,7 @@ Now, try installing the Pillow with your package manager for your system's match
 
 than copy (or make a symlink) the PIL directory from the python's dist-packages(or site-packages) to your
 `~/.config/blender/2.xx/scripts/modules/` directory 
-_(or one of the directories from "How to find where to copy" title.)_
+_(or one of the directories from [How to find where to copy]())_
 
 And it is done.  
 
