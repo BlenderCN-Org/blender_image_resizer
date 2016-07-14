@@ -10,7 +10,7 @@
 For now, this add on can not save 16 bit images.
 (pil does not support saving 16 bit images.)
 
-####How to install Pillow to Blender?
+###How to install Pillow to Blender?
 
 
 **How to find blender's python version:**
