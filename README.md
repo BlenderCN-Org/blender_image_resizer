@@ -263,22 +263,22 @@ Also if your blender is 32 bit. Your python version should be also 32 bit
 if it is 64 bit than it should be 64 bit.
 
 And normally using the matching version python's pip and executing this command should work.
-```python
-pip3 install -U pillow
-# or maybe pip3.5
-pip3.5 install -U pillow
-```
+
+    pip3 install -U pillow
+    # or maybe pip3.5
+    pip3.5 install -U pillow
+
 if it does not work, please try this
-```python
-pip3 install wheel
-pip3 install --use-wheel pillow
-```
+
+    pip3 install wheel
+    pip3 install --use-wheel pillow
 
 if one of these works, than copy the PIL directory to a directory which blender scans for python modules (See above.)
 
 But there may be some problems depending on your OS X version.
 For example:
 https://stackoverflow.com/questions/21867277/installing-pillow-with-mac-os-x-mavericks-10-9-1
+
 etc.
 
 
@@ -288,7 +288,7 @@ _(from http://stackoverflow.com/a/23594914)_
 
 Homebrew provides a formula for Python 2.7.x and one for Python 3.x. They don't conflict, so they can both be installed. The executable python will always point to the 2.x and python3 to the 3.x version.
 
-!! But you can not select the exact version of python3, you may need python 3.5 and it may install python 3.4.
+**!! But you can not select the exact version of python3, you may need python 3.5 and it may install python 3.4.**
 
 So:
 
